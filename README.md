@@ -2,4 +2,4 @@
 
 ## Documentación
 
-Aplicación web creada para ...
+Aplicación web creada para el restaurante
