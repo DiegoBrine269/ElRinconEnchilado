@@ -2,4 +2,4 @@
 
 ## Documentación
 
-Aplicación web creada para el restaurante
+[Requerimientos: ](https://github.com/DiegoBrine269/ElRinconEnchilado/blob/master/docs/Requerimientos.md)
