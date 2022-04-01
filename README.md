@@ -1,1 +1,3 @@
 # ElRinconEnchilado
+
+Aplicación web creada para ...
