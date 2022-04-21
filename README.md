@@ -13,8 +13,6 @@
 - [Vista Funcional](https://github.com/DiegoBrine269/ElRinconEnchilado/blob/master/doc/vistas/VistaFuncional.md)
 - [Vista de Información](https://github.com/DiegoBrine269/ElRinconEnchilado/blob/master/doc/vistas/VistaDeInformacion.md)
 - [Vista de Concurrencia](https://github.com/DiegoBrine269/ElRinconEnchilado/blob/master/doc/vistas/VistaDeConcurrencia.md)
-- [Vista de Información](https://github.com/DiegoBrine269/ElRinconEnchilado/blob/master/doc/vistas/VistaDeInformacion.md)
-- [Vista de Concurrencia](https://github.com/DiegoBrine269/ElRinconEnchilado/blob/master/doc/vistas/VistaDeConcurrencia.md)
 - [Vista de Despliegue](https://github.com/DiegoBrine269/ElRinconEnchilado/blob/master/doc/vistas/VistaDeDespliegue.md)
 
 ## Arquitectura del Sistema
