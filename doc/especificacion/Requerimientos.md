@@ -1,6 +1,6 @@
-### Requerimientos del sistema
+## Requerimientos del sistema
 
-## Requerimientos funcionales
+### Requerimientos funcionales
 
 RF1. La aplicación permitirá guardar diferentes tipos de productos en las categorías:
    - Desayunos
