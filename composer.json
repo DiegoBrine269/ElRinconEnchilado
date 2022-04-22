@@ -1,0 +1,13 @@
+{
+    "name": "diieg/el-rincon-enchilado",
+    "description": "Proyecto para ADS del Equipo 3",
+    "require": {},
+    "autoload" : {
+        "psr-4": {
+            "MVC\\": "./",
+            "Models\\" : "./models",
+            "Views\\": "./views",
+            "Controllers\\": "./controllers"
+        }
+    }
+}

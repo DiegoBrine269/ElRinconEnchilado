@@ -1,6 +1,6 @@
-### Requerimientos del sistema
+## Requerimientos del sistema
 
-## Requerimientos funcionales
+### Requerimientos funcionales
 
 RF1. La aplicación permitirá guardar diferentes tipos de productos en las categorías:
    - Desayunos
@@ -53,3 +53,10 @@ RF14. En el momento en el que el consumidor haga un pedido, se le desplegará un
    - Entregado
 
 RF15. A los usuarios que junten $1000 en compras, se les hará un descuento del 10% en la compra consecuente una vez hayan alcanzado la cantidad.
+
+
+### Requerimientos no funcionales
+
+RNF1. La aplicación deberá funcionar en los navegadores Edge y Chrome.
+
+RNF2. 
