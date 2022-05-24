@@ -59,10 +59,13 @@ RF15. A los usuarios que junten $1000 en compras, se les hará un descuento del 
 
 RNF1. La aplicación deberá funcionar en los navegadores Edge y Chrome.
 
-RNF2. El sistema debe ser capaz de operar adecuadamente con hasta 100 usuarios con sesiones concurrentes.
+RNF2. La aplicación debe ser capaz de operar adecuadamente con hasta 100 usuarios con sesiones concurrentes.
 
 RNF3. Los datos modificados en la base de datos deben ser actualizados aproximadamente 5 segundos después de realizar alguna actualización.
 
-RNF4. El sistema debe contar con manuales de usuario estructurados adecuadamente.
+RNF4. La aplicación debe contar con manuales de usuario estructurados adecuadamente.
 
 RNF5. El acceso a diferentes puntos del sistema podrá ser controlado por un administrador. (El administrador es quien podrá cambiar los roles de los trabajadores).
+
+RNF6. 
+
