@@ -1,2 +1,2 @@
 "
-![Casos de uso](/ruta/a/imagen.png)" 
+![Casos de uso](/doc/img/Casos de uso.png)" 
