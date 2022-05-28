@@ -1,1 +1,1 @@
-"![Texto alternativo](img/Caso.png)"
+"![Texto alternativo](img/CasosDeUso.png)"
