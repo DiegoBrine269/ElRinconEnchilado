@@ -1,1 +1,1 @@
-"![Texto alternativo](ElRinonEnchilado/doc/img/Casos de uso.png)"
+"![Texto alternativo](/img/Casos de uso.png)"
