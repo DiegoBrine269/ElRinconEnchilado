@@ -1,1 +1,1 @@
-"![Diagrama de despliegue](../img/DiagramaDeDespliegue.png)"
+"![Diagrama de despliegue](../img/Despliegue.png)"
