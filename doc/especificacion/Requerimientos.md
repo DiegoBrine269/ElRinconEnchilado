@@ -69,7 +69,7 @@ RNF3. Los datos modificados en la base de datos deben ser actualizados aproximad
 
 RNF4. La aplicación debe contar con manuales de usuario estructurados adecuadamente.
 
-RNF5. El acceso a diferentes puntos del sistema podrá ser controlado por un administrador. (El administrador es quien podrá cambiar los roles de los trabajadores).
+RNF5. El acceso a diferentes puntos de la aplicación podrá ser controlado por un administrador. (El administrador es quien podrá cambiar los roles de los trabajadores).
 
 RNF6. 
 
