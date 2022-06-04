@@ -16,6 +16,7 @@ RF3. Un consumidor podrá entrar como invitado, o iniciar sesión (habiéndose r
 RF4. Será necesario que el consumidor ingrese datos esenciales para la creación de su cuenta, tales como:
    - Nombre
    - Apellido
+   - Email
    - Contraseña
    - Domicilio
 
@@ -23,7 +24,7 @@ RF5. El consumidor podrá seleccionar la cantidad de productos que desee de las 
 
 RF6. Los trabajadores tendrán la capacidad de visualizar y modificar registros de ventas.
 
-RF7. Los trabajadores tendrán la opción de visualizar, crear, modificar y eliminar los productos que venda el negocio.
+RF7. El administrador tendrá la opción de visualizar, crear, modificar y eliminar los productos que venda el negocio.
 
 RF8. Cada producto tendrá los siguientes datos: 
     - Nombre
@@ -32,23 +33,20 @@ RF8. Cada producto tendrá los siguientes datos:
     - Descripción
 
 RF9. Como trabajadores, habrán diferentes roles:
-   - Gerente
+   - Administrador
    - Empleado
 
 RF10. El empleado deberá tener 1 rol:
    - Cocinero.
    - Mesero (Repartidor).
 
-RF11. El gerente tendrá todas las funciones del sistema disponibles.
+RF11. El administrador tendrá todas las funciones del sistema disponibles.
 
 RF12. El empleado únicamente podrá ver las órdenes del momento, y este podrá cambiar el status de la orden.
 
 RF13. Las órdenes se irán almacenando en forma de cola, de forma que serán visibles para los empleados
 
-RF14. El consumidor podrá elegir entre las formas de pago siguientes:
-   - Efectivo
-   - Paypal
-   - Tarjeta de crédito o débito
+RF14. El consumidor eberá pagar en efectivo.
 
 RF15. En el momento en el que el consumidor haga un pedido, se le desplegará una línea del tiempo del status de su pedido, con los siguientes estados:
    - Recibido
@@ -71,5 +69,4 @@ RNF4. La aplicación debe contar con manuales de usuario estructurados adecuadam
 
 RNF5. El acceso a diferentes puntos de la aplicación podrá ser controlado por un administrador. (El administrador es quien podrá cambiar los roles de los trabajadores).
 
-RNF6. 
-
+RNF6. La aplicación web debe poseer un diseño “Responsive” a fin de garantizar la adecuada visualización en múltiples computadores personales, dispositivos tableta y teléfonos inteligentes.
