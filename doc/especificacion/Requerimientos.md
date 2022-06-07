@@ -45,7 +45,7 @@ RF12. El empleado únicamente podrá ver las órdenes del momento, y este podrá
 
 RF13. Las órdenes se irán almacenando en forma de cola, de forma que serán visibles para los empleados
 
-RF14. El consumidor eberá pagar en efectivo.
+RF14. El consumidor deberá pagar en efectivo.
 
 RF15. En el momento en el que el consumidor haga un pedido, se le desplegará una línea del tiempo del status de su pedido, con los siguientes estados:
    - Recibido
@@ -62,7 +62,7 @@ RNF2. La aplicación web debe ser capaz de operar adecuadamente con hasta 100 us
 
 RNF3. Los datos modificados en la base de datos deben ser actualizados aproximadamente 5 segundos después de realizar alguna actualización.
 
-RNF4. La aplicación webdebe contar con manuales de usuario estructurados adecuadamente.
+RNF4. La aplicación web debe contar con manuales de usuario estructurados adecuadamente.
 
 RNF5. El acceso a diferentes puntos de la aplicación podrá ser controlado por un administrador. (El administrador es quien podrá cambiar los roles de los trabajadores).
 
