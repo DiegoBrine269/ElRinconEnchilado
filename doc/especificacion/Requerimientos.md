@@ -28,6 +28,7 @@ RF7. El administrador tendrá la opción de visualizar, crear, modificar y elimi
 RF8. Cada producto tendrá los siguientes datos:
    - Nombre
    - Precio
+   - Imagen
    - Descripción
    - Disponibilidad
 
