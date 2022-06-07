@@ -1,0 +1,13 @@
+* {
+    font-family: var(--fuentePrincipal);
+}
+
+h1, h2, h3 {
+    font-family: var(--fuenteTiutlos);
+}
+
+
+
+body {
+    background-color: #f7f7f7;
+}

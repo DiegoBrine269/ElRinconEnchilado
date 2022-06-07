@@ -6,6 +6,6 @@
     $router = new Router();
 
     $router->get('/inicio', [InicioController::class, 'index']);
-    $router->get('/login', [InicioController::class, 'login']);
+    $router->get('/menu', [InicioController::class, 'menu']);
    
     $router->comprobarRutas();

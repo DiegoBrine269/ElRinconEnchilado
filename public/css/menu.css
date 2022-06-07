@@ -1,0 +1,30 @@
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+.categorias {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+.categoria {
+    margin: 0;
+    padding: 0;
+}
+
+.selected {
+    background-color: var(--amarillo);
+    color: black;
+    padding: 0.5rem;
+}
+
+.platillo {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: var(--blanco);
+}
