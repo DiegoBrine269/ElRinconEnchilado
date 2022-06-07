@@ -25,11 +25,11 @@ RF6. Los trabajadores tendrán la capacidad de visualizar y modificar registros 
 
 RF7. El administrador tendrá la opción de visualizar, crear, modificar y eliminar los productos que venda el negocio.
 
-RF8. Cada producto tendrá los siguientes datos: 
-    - Nombre
-    - Precio
-    - Descripción
-    - Disponibilidad
+RF8. Cada producto tendrá los siguientes datos:
+   - Nombre
+   - Precio
+   - Descripción
+   - Disponibilidad
 
 RF9. Como trabajadores, habrán diferentes roles:
    - Administrador
