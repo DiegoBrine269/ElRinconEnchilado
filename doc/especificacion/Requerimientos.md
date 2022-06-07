@@ -59,14 +59,28 @@ RF16. A los usuarios que junten $1000 en compras, se les hará un descuento del 
 
 ### Requerimientos no funcionales
 
-RNF1. La aplicación deberá funcionar en los navegadores Edge y Chrome.
+RNF1. La aplicación web deberá funcionar en los navegadores Edge y Chrome.
 
-RNF2. La aplicación debe ser capaz de operar adecuadamente con hasta 100 usuarios con sesiones concurrentes.
+RNF2. La aplicación web debe ser capaz de operar adecuadamente con hasta 100 usuarios con sesiones concurrentes.
 
 RNF3. Los datos modificados en la base de datos deben ser actualizados aproximadamente 5 segundos después de realizar alguna actualización.
 
-RNF4. La aplicación debe contar con manuales de usuario estructurados adecuadamente.
+RNF4. La aplicación webdebe contar con manuales de usuario estructurados adecuadamente.
 
 RNF5. El acceso a diferentes puntos de la aplicación podrá ser controlado por un administrador. (El administrador es quien podrá cambiar los roles de los trabajadores).
 
 RNF6. La aplicación web debe poseer un diseño “Responsive” a fin de garantizar la adecuada visualización en múltiples computadores personales, dispositivos tableta y teléfonos inteligentes.
+
+RNF7. La aplicación web tendrá un archivo de "respaldo". Dicho archivo contendrá todas las ventas realizadas en la plataforma.
+
+RNF8. La aplicación web debe funcionar en cualquiera de los siguientes sistemas operativos:
+   - Windows.
+   - iOS.
+   - Linux.  
+   - Android. 
+
+RNF9. La plataforma contará con una documentación que permita la fácil escalabilidad de la aplicación.
+
+RNF10. Los datos personales de los consumidores (nombre completo, email, contraseña) serán encriptados con ayuda del gestor de base de datos, MySQL. 
+
+RNF11. La aplicación web tendrá un control de excepciones, es decir, una validación de la información.
