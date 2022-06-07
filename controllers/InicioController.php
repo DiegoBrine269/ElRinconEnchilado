@@ -4,10 +4,7 @@
 
     class InicioController {
         public static function menu (Router $router) {
-            $router->render('menu', [
-                'nombre' => 'Alan',
-                'correo' => 'alan@gmail.com'
-            ]);
+            $router->render('menu');
         } 
 
         public static function login (Router $router) {

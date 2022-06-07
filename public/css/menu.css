@@ -8,13 +8,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0;
     padding: 0.5rem 0;
 }
 
 .categoria {
     margin: 0;
     padding: 0;
+    cursor: pointer;
 }
 
 .selected {
@@ -23,8 +23,25 @@
     padding: 0.5rem;
 }
 
+@media (min-width: 992px) {
+    .platillos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+}
+
 .platillo {
     display: grid;
     grid-template-columns: 1fr 2fr;
     background-color: var(--blanco);
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+@media (min-width: 992px) {
+    .platillo{
+        margin-top: 0;
+    }
 }

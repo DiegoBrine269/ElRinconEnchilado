@@ -1,3 +1,5 @@
+DROP DATABASE elrinconenchilado;
+
 CREATE DATABASE ElRinconEnchilado;
 USE ElRinconEnchilado;
 
@@ -7,14 +9,12 @@ CREATE TABLE Consumidor (
 	id INT AUTO_INCREMENT PRIMARY KEY ,
     nombre VARCHAR (35),
     apPaterno VARCHAR (35),
-    apMaterno VARCHAR (35),
     email VARCHAR (50),
+    domicilio VARCHAR(100),
     pass VARCHAR (25)
-
 );
 
 CREATE TABLE Trabajador(
-
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(30),
     apPaterno VARCHAR(30),
@@ -22,20 +22,32 @@ CREATE TABLE Trabajador(
     email VARCHAR(50),
     rol VARCHAR (30), 
     pass VARCHAR (25)
-    
 );
 
 CREATE TABLE Pedido(
 	id INT AUTO_INCREMENT PRIMARY KEY,
     idConsumidor INT,
-    idTrabajador INT,
-	cantidad INT,
-    descripcion VARCHAR (100),
+    idTrabajador INT, /*quién entrega la orden*/
     fecha DATE, 
     estatus varchar (25)
 );
 
- 
+CREATE TABLE Producto
+(
+	idProducto INT AUTO_INCREMENT, 
+    nombreProducto VARCHAR(50),
+    descripcion VARCHAR(50),
+    disponibilidad BOOLEAN,
+    precio DOUBLE(5,2)
+);
+
+CREATE TABLE PedidoProducto (
+	idPedido INT,
+    idProducto INT,
+    cantidad INT
+);
+
+
 
 CREATE TABLE Venta
 (
@@ -50,14 +62,10 @@ CREATE TABLE Venta
     
 );
 
-CREATE TABLE HistorialVenta
-(
-	idVenta INT, 
-    idTrabajador INT,
-    fechaVenta DATE,
-    total INT
+/*Llaves primarias*/
+ALTER TABLE PedidoProducto
+ADD CONSTRAINT pk_pedido_producto PRIMARY KEY (idPedido, idProducto);
 
-);
 
 
 /* LLaves foráneas */
@@ -68,14 +76,6 @@ REFERENCES Trabajador(id);
 ALTER TABLE Venta 
 ADD CONSTRAINT fk_idConsumidor_Venta FOREIGN KEY (idConsumidor) 
 REFERENCES Consumidor(id);
-
-ALTER TABLE HistorialVenta
-ADD CONSTRAINT fk_idTrabajador_HistorialVenta FOREIGN KEY (idTrabajador) 
-REFERENCES Trabajador(id);
-
-ALTER TABLE HistorialVenta
-ADD CONSTRAINT fk_idVenta_HistorialVenta FOREIGN KEY (idVenta) 
-REFERENCES Venta(id);
 
 ALTER TABLE Pedido
 ADD CONSTRAINT fk_idConsumidor_Pedido FOREIGN KEY (idConsumidor)

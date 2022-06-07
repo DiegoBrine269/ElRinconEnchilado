@@ -1,0 +1,18 @@
+.contenedor {
+    margin: 0 auto;
+    max-width: 95%;
+}
+
+@media (min-width: 768px) {
+    .contenedor {
+        max-width: 80%;
+    }
+}
+
+.oculto {
+    display: none!important;
+}
+
+.visible {
+    display: auto;
+}
