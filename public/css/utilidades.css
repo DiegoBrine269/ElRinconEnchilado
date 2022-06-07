@@ -16,3 +16,14 @@
 .visible {
     display: auto;
 }
+
+.btn {
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: var(--amarillo);
+}

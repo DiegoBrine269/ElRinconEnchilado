@@ -1,10 +1,14 @@
 <?php
     namespace Controllers;
     use MVC\Router;
+    use Models\Producto;
 
     class InicioController {
         public static function menu (Router $router) {
-            $router->render('menu');
+            $productos = Producto::all();
+            $router->render('menu', [
+                'productos' => $productos
+            ]);
         } 
 
         public static function login (Router $router) {

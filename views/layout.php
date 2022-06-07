@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <img src="" alt=""> 
     <section class="contenedor contenedor-titulo">
         <h1>El Rincón Enchilado</h1>
     </section>   
