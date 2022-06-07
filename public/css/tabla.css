@@ -1,0 +1,9 @@
+.tabla {
+    border-spacing: 0;
+    width: 100%;
+}
+
+.tabla thead td{
+    background-color: var(--negro);
+    color: var(--blanco);
+}

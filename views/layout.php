@@ -21,9 +21,9 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <img src="" alt=""> 
     <section class="contenedor contenedor-titulo">
         <h1>El Rincón Enchilado</h1>
+        <button id="btn-mostrar-carrito" class="btn btn-success">Mostrar carrito</button>
     </section>   
 
     <?php echo $contenido ?>
