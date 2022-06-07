@@ -4,7 +4,6 @@
 
 RF1. La aplicación permitirá guardar diferentes tipos de productos en las categorías:
    - Desayunos
-   - Entradas
    - Comida
    - Bebidas
    - Postres
