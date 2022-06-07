@@ -1,1 +1,1 @@
-![Diagrama de contexto](../img/DiagramaDeContexto.png)
+![Diagrama de contexto](../img/Context.png)
