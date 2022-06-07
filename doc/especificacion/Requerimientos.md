@@ -53,8 +53,6 @@ RF15. En el momento en el que el consumidor haga un pedido, se le desplegará un
    - En proceso de entrega
    - Entregado
 
-RF16. A los usuarios que junten $1000 en compras, se les hará un descuento del 10% en la compra consecuente una vez hayan alcanzado la cantidad.
-
 
 ### Requerimientos no funcionales
 
