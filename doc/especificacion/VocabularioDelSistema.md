@@ -8,8 +8,3 @@
 
 - **Producto:** Hace referencia a los platillos o bebidas que ofrece el negocio.
 
-## Modelo de dominio.
-![Modelo de dominio](../img/ModeloDeDominio.png)
-
-## Tarjetas CRC.
-![Tarjetas CRC](../img/TarjetasCRC.png)
