@@ -1,1 +1,1 @@
-![Diagrama de componentes](../img/Componentes.png)
+![Diagrama de componentes](../img/Component.png)
