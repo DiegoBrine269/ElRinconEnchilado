@@ -6,4 +6,4 @@
 ![Tarjetas CRC](../img/TarjetasCRC.png)
 
 ## Diagrama de clases
-![Diagrama de clases](../img/DiagramaClases.png)
+![Diagrama de clases](../img/DiagramaDeClases.png)
