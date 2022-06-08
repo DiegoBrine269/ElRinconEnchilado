@@ -1,3 +1,4 @@
+# VISTA DE INFORMACIÓN
 
 ## Modelo de dominio.
 ![Modelo de dominio](../img/ModeloDeDominio.png)
