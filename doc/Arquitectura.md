@@ -7,7 +7,7 @@ La arquitectura del sistema está basada en el patrón de diesño MVC (Model - V
 3. Controller: Los controladores, fungen como unión entre los modelos y las vistas, es decir, pide la información de la base de datos al modelo para después enviarla a la vista y que esta la renderice.  
 
 Las carpetas de lo anterior podemos visualizarlas en la raíz del proyecto:  
-![index.php](./img/mvc.png)
+![mvc](./img/mvc.png)
 
 Aunado a lo anterior, se diseñó una clase llamada Router, en la cual, implementamos una función llamada comprobarRutas, la cual nos permite enlazar rutas GET y rutas POST a funciones que renderizan una vista.
 El listado de rutas se define en public/index.php:  
