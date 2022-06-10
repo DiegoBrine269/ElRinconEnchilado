@@ -1,6 +1,6 @@
-## Requerimientos del sistema
+# Requerimientos del sistema
 
-### Requerimientos funcionales
+## Requerimientos funcionales
 
 RF1. La aplicación permitirá guardar diferentes tipos de productos en las categorías:
    - Desayunos
@@ -55,7 +55,7 @@ RF15. En el momento en el que el consumidor haga un pedido, se le desplegará un
    - Entregado
 
 
-### Requerimientos no funcionales
+## Requerimientos no funcionales
 
 RNF1. La aplicación web deberá funcionar en los navegadores Edge y Chrome.
 
@@ -79,6 +79,11 @@ RNF8. La aplicación web debe funcionar en cualquiera de los siguientes sistemas
 
 RNF9. La plataforma contará con una documentación que permita la fácil escalabilidad de la aplicación.
 
-RNF10. Los datos personales de los consumidores (nombre completo, email, contraseña) serán encriptados con ayuda del gestor de base de datos, MySQL. 
+RNF10. Los datos personales de los consumidores (nombre completo, email, contraseña) serán encriptados con ayuda del gestor de base de datos MySQL. 
 
 RNF11. La aplicación web tendrá un control de excepciones, es decir, una validación de la información.
+
+RNF12. El servidor deberá estar encendido 24 horas al día, 7 días a la semana, los mantenimientos serán programados con anticipación mínima de una semana y únicamente podrán efectuarse en el horario de 00:00 - 9:00 hrs.
+
+
+
