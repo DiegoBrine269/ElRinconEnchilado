@@ -8,3 +8,5 @@
 
 - **Producto:** Hace referencia a los platillos o bebidas que ofrece el negocio.
 
+- **Validación:** La verificación de que los datos que ingresan al sistema tengan un formato correcto.
+
