@@ -5,9 +5,9 @@
   - MySQL.
   
 ## Front-end:
-  - HTML 5.
-  - CSS.
-  - JavaScript.
+  - HTML5.
+  - CSS3.
+  - JavaScript .
   
 ## Control de versiones:
-  - Git.
+  - Git Y Github.
