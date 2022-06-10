@@ -7,7 +7,7 @@ El siguiente diagrama ER específica qué se implementará (en un modelo de dato
 ![Modelo de datos](../img/ModelDominio.png)
 
 Con ayuda del gestor de base de datos, MySQL, se obtuvo el siguiente diagrama relacional.
-![Modelo de datos](../img/ModeloRelacional.png)
+![Modelo de datos](../img/ModeloRelacional.jpg)
 
 ## Tarjetas CRC.
 ![Tarjetas CRC](../img/TarjetasCRC.png)
