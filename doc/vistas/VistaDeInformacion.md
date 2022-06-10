@@ -8,4 +8,4 @@
 
 ## Diagrama de clases
 A pesar de que el sistema se implementará bajo el platrón de diseño MVC, se puede seguir la siguiente abstracción: 
-![Diagrama de clases](../img/DiagramaDeClases.png)
+![Diagrama de clases](../img/DiagramaDeClase.png)
