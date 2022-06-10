@@ -3,7 +3,7 @@
 Este proyecto ha sido posible gracias a la colaboración de:
 
 ## Diego Enrique González Oloarte
-![Foto de Diego](../img/Diego.jpg)
+![Foto de Diego](../img/DiegoO.jpg)
 **Contacto:** diegooloarte269@gmail.com
 **Github:** [DiegoBrine269](https://github.com/DiegoBrine269)
 
