@@ -13,6 +13,6 @@
     - Crear una herramienta útil para microempresas dentro del giro de alimentos, dado que fue uno de los sectores más afectados con el confinamiento, pues en estas se vio limitado el horario de operación y la afluencia de clientes.
 
   ### **Particular:**
-    - Lograr que el restaurante **El Rincón enchilad** pueda mejorar sus ventas, ofreciendo sus servicios por medio de una plataforma digital, donde los usuarios puedan visualizar el menú, así como hacer y rastrear órdenes a domicilio.
+    - Lograr que el restaurante **El Rincón enchilado** pueda mejorar sus ventas, ofreciendo sus servicios por medio de una plataforma digital, donde los usuarios puedan visualizar el menú, así como hacer y rastrear órdenes a domicilio.
 
  
