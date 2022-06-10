@@ -18,6 +18,7 @@ RF4. Será necesario que el consumidor ingrese datos esenciales para la creació
    - Email
    - Contraseña
    - Domicilio
+   - Número telefónico
 
 RF5. El consumidor podrá seleccionar la cantidad de productos que desee de las categorías antes mencionadas.
 
