@@ -2,7 +2,7 @@
 # Software para gestión de restaurantes.
 
 ## Resumen del Proyecto (Descripción General)
-- **Visión del Producto:** Desarrollar un software para pequeñas empresas de alimentos, para que aumenten su competencia en el mercado y más personas tengan acceso a conocerlos.
+- **Visión del Producto:** Desarrollar un software para pequeñas empresas de alimentos, para que aumenten su competencia en el mercado, así como automatizar la gestión de estas.
 
 - **Funciones principales del producto:** Menú digital, pedidos en línea, monitoreo de pedidos, administación de ventas
 
@@ -10,9 +10,9 @@
 - **Objetivos del Proyecto (Dentro del alcance del sistema):** 
   ### **General:**
 
-    - Nos gustaría apoyar a todas las microempresas que se vieron afectados debido a la pandemia. Sin embargo, nuestro software se limita a microempresas de alimentos,       ya que pensamos que fueron las más afectados con el confinamiento, el horario limitado, la disminución de clientes.
+    - Crear una herramienta útil para microempresas dentro del giro de alimentos, dado que fue uno de los sectores más afectados con el confinamiento, pues en estas se vio limitado el horario de operación y la afluencia de clientes.
 
   ### **Particular:**
-    - El objetivo de nuestro proyecto es hacer que una pequeña empresa de alimentos pueda mejorar sus ventas, dándose a conocer por medio de una plataforma digital,         donde los usuarios puedan hacer sus pedidos, observar el estado de su pedido y conocer el menú del día.
+    - Lograr que el restaurante **El Rincón enchilad** pueda mejorar sus ventas, ofreciendo sus servicios por medio de una plataforma digital, donde los usuarios puedan visualizar el menú, así como hacer y rastrear órdenes a domicilio.
 
  
