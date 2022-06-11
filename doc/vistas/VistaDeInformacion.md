@@ -12,6 +12,6 @@ Con ayuda del gestor de base de datos, MySQL, se obtuvo el siguiente diagrama re
 ## Tarjetas CRC.
 ![Tarjetas CRC](../img/TarjetasCRC.png)
 
-### Clases del dominio (Clases del dominio)
+### Clases del dominio (Diagrama de clases)
 A pesar de que el sistema se implementará bajo el platrón de diseño MVC, se puede seguir la siguiente abstracción: 
 ![Diagrama de clases](../img/DiagramaDeClase.png)
