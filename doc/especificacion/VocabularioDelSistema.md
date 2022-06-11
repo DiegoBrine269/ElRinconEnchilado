@@ -17,3 +17,6 @@
 - **Dispositivo:** Hace referencia al objeto electónico en el cual se podrá interactuar con el software. 
 
 - **Caja negra:** Es un término técnico para un dispositivo, sistema u objeto cuando se ve principalmente en términos de sus características de entrada y salida.
+
+- **Model-View-Controller (MVC):** Denota el patrón de diseño que se implementó en el sistema.
+
