@@ -2,7 +2,7 @@
 
 ## Modelo de dominio.
 
-### Modelo de datos (Diagrama E-R)
+### Modelo de datos (Diagrama relacional)
 El siguiente diagrama ER específica qué se implementará (en un modelo de datos físicos).
 ![Modelo de datos](../img/ModelDominio.png)
 
