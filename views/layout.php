@@ -8,6 +8,10 @@
     if(!isset($titulo)){
         $titulo = "El Rincón Enchilado";
     }
+
+    if(!isset($pagina)){
+        $pagina = '/';
+    }
 ?>
 
 <!DOCTYPE html>
@@ -21,12 +25,24 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <img src="" alt=""> 
     <section class="contenedor contenedor-titulo">
         <h1>El Rincón Enchilado</h1>
+        <?php 
+            if($pagina === 'menu') {
+        ?>
+            <button id="btn-mostrar-carrito" class="btn btn-success">Mostrar carrito</button>
+        <?php 
+            }
+        ?>
     </section>   
 
     <?php echo $contenido ?>
+
+    <footer>
+        <div class="contenedor">
+            5CV2 Equipo 3. Análisis y Diseño de Sistemas.
+        </div>
+    </footer>
 
 </body>
 </html>

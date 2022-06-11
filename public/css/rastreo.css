@@ -1,0 +1,11 @@
+.tabla-rastreo{
+    width: 100%;
+}
+
+
+.completed {
+    background-color: var(--amarillo);
+    color: var(--negro);
+    border: 2px solid var(--negro);
+    font-weight: bold;
+}

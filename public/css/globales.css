@@ -6,8 +6,30 @@ h1, h2, h3 {
     font-family: var(--fuenteTiutlos);
 }
 
-
-
 body {
     background-color: #f7f7f7;
+}
+
+img {
+     max-width: 100%;
+}
+
+.img-404 {
+    width: 30%;
+}
+
+
+footer {
+    background-color: var(--negro);
+    color: var(--blanco);
+    text-align: center;
+    padding: 1.5rem 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+body{
+    position: relative;
+    padding-bottom: 7rem;
 }

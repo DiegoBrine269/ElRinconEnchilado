@@ -1,0 +1,38 @@
+.contenedor {
+    margin: 0 auto;
+    max-width: 95%;
+}
+
+@media (min-width: 768px) {
+    .contenedor {
+        max-width: 80%;
+    }
+}
+
+.oculto {
+    display: none!important;
+}
+
+.visible {
+    display: auto;
+}
+
+.btn {
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    max-height: 2.5rem;
+}
+
+.btn-principal {
+    background-color: var(--amarillo);
+}
+
+.btn-success {
+    background-color: var(--amarillo);
+}
+
+.texto-centrado {
+    text-align: center;
+}
