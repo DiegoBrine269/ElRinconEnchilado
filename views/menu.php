@@ -111,21 +111,32 @@
     </div>
 </main>
 
-<!-- The Modal -->
-<div id="modalCarrito" class="modal">
+<!-- [1] -->
+<div id="modal-1" aria-hidden="true" class="modal">
 
-  <!-- Modal content -->
-  <div class="modal-content">
-    <div class="modal-header">
-      <span class="close">&times;</span>
-      <h2>Carrito de compras</h2>
-    </div>
-    <div class="modal-body">
-        <?php ?>
-    </div>
+  <!-- [2] -->
+  <div tabindex="-1" data-micromodal-close>
 
+    <!-- [3] -->
+    <div role="dialog" aria-modal="true" aria-labelledby="modal-1-title" >
+
+
+      <header>
+        <h2 id="modal-1-title">
+          Modal Title
+        </h2>
+
+        <!-- [4] -->
+        <button aria-label="Close modal" data-micromodal-close></button>
+      </header>
+
+      <div id="modal-1-content">
+        Modal Content
+      </div>
+
+    </div>
   </div>
-
 </div>
-
+        
+<script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
 <script type="module" src="js/menu.js"/></script>

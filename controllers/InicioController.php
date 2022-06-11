@@ -7,7 +7,8 @@
         public static function menu (Router $router) {
             $productos = Producto::all();
             $router->render('menu', [
-                'productos' => $productos
+                'productos' => $productos,
+                'pagina' => 'menu'
             ]);
         } 
 

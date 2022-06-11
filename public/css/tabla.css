@@ -1,9 +1,26 @@
 .tabla {
     border-spacing: 0;
     width: 100%;
+    border: none;
 }
 
 .tabla thead td{
     background-color: var(--negro);
     color: var(--blanco);
+    font-size: 1.2rem;
 }
+
+.tabla-img {
+    width: 13rem;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #cccccc;
+    color: var(--negro);
+}
+
+td {
+    text-align: center;
+    border: none;
+}
+

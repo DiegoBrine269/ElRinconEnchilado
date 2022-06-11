@@ -58,33 +58,10 @@ CREATE TABLE PedidoProducto (
 
 
 
-/*CREATE TABLE Venta
-(
-	id INT AUTO_INCREMENT PRIMARY KEY,
-    idTrabajador INT,
-    idConsumidor INT,
-    nombreProducto VARCHAR(50),
-    cantidad INT, 
-    precioUnitario INT,
-	fecha DATE,
-    total INT
-    
-);*/
 
 /*Llaves primarias*/
 ALTER TABLE PedidoProducto
 ADD CONSTRAINT pk_pedido_producto PRIMARY KEY (idPedido, idProducto);
-
-
-
-/* LLaves foráneas */
-/*ALTER TABLE Venta 
-ADD CONSTRAINT fk_idTrabajador_Venta FOREIGN KEY (idTrabajador) 
-REFERENCES Trabajador(id);
-
-ALTER TABLE Venta 
-ADD CONSTRAINT fk_idConsumidor_Venta FOREIGN KEY (idConsumidor) 
-REFERENCES Consumidor(id);*/
 
 ALTER TABLE Producto
 ADD CONSTRAINT fk_producto_categoria FOREIGN KEY (categoria)
@@ -97,3 +74,11 @@ REFERENCES Consumidor(id);
 ALTER TABLE Pedido
 ADD CONSTRAINT fk_idTrabajador_Pedido FOREIGN KEY (idTrabajador)
 REFERENCES Trabajador(id);
+
+ALTER TABLE PedidoProducto
+ADD CONSTRAINT fk_pedido_producto_1 FOREIGN KEY (idProducto)
+REFERENCES Producto(idProducto);
+
+ALTER TABLE PedidoProducto
+ADD CONSTRAINT fk_pedido_producto_2 FOREIGN KEY (idPedido)
+REFERENCES Pedido(id);

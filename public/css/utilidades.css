@@ -25,6 +25,14 @@
     max-height: 2.5rem;
 }
 
+.btn-principal {
+    background-color: var(--amarillo);
+}
+
 .btn-success {
     background-color: var(--amarillo);
+}
+
+.texto-centrado {
+    text-align: center;
 }
