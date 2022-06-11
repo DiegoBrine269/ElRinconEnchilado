@@ -8,7 +8,7 @@ RF1. La aplicación permitirá guardar diferentes tipos de productos en las cate
    - Bebidas
    - Postres
 
-RF2. Al ingresar a la aplicación, habrá dos formas de entrar: como trabajador y como consumidor
+RF2. Al ingresar a la aplicación, habrá dos formas de ingresar: como trabajador y como consumidor
 
 RF3. Un consumidor podrá entrar como invitado, o iniciar sesión (habiéndose registrado previamente).
 
@@ -47,7 +47,7 @@ RF12. El empleado únicamente podrá ver las órdenes del momento, y este podrá
 
 RF13. Las órdenes se irán almacenando en forma de cola, de forma que serán visibles para los empleados
 
-RF14. El consumidor deberá pagar en efectivo.
+RF14. La aplicación no admitirá métodos de pago, por lo tanto, el consumidor deberá pagar en efectivo.
 
 RF15. En el momento en el que el consumidor haga un pedido, se le desplegará una línea del tiempo del status de su pedido, con los siguientes estados:
    - Recibido
