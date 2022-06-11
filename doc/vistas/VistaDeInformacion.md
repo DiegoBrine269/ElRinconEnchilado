@@ -1,4 +1,4 @@
-# VISTA DE INFORMACIÓN
+# Vista de información
 
 ## Modelo de dominio.
 
